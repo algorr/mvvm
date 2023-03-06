@@ -33,11 +33,11 @@ class ContactsResponse {
   @JsonKey(name: 'phone')
   String? phone;
   @JsonKey(name: 'link')
-  String? name;
+  String? link;
   @JsonKey(name: 'email')
   String? email;
 
-  ContactsResponse(this.phone, this.name, this.email);
+  ContactsResponse(this.phone, this.link, this.email);
 
   // from json
   factory ContactsResponse.fromJson(Map<String, dynamic> json) =>

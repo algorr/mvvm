@@ -40,7 +40,7 @@ ContactsResponse _$ContactsResponseFromJson(Map<String, dynamic> json) =>
 Map<String, dynamic> _$ContactsResponseToJson(ContactsResponse instance) =>
     <String, dynamic>{
       'phone': instance.phone,
-      'link': instance.name,
+      'link': instance.link,
       'email': instance.email,
     };
 
