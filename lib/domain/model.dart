@@ -14,7 +14,7 @@ class SliderObject {
 class Customer {
   String id;
   String name;
-  String numOfNotifications;
+  int numOfNotifications;
 
   Customer({
     required this.id,
