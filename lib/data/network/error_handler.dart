@@ -160,3 +160,8 @@ class ResponseMessage {
   static const String CACHE_ERROR = "cache error";
   static const String NO_INTERNET_CONNECTION = "check your internet connection";
 }
+
+class ApiInternalStatus {
+  static const int SUCCESS = 0;
+  static const int FAILURE = 1;
+}
