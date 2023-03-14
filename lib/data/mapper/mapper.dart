@@ -8,7 +8,6 @@ const empty = "";
 const zero = 0;
 
 //* Customer Response
-
 extension CustomerResponseMapper on CustomerResponse? {
   Customer toDomain() {
     return Customer(
