@@ -22,7 +22,7 @@ class RepositoryImpl extends Repository {
         //* connection : OK
         //* safe to call api
         final response = await _remoteDataSource.login(loginRequest);
-        if (response.status == 0) {
+        if (response.status == ApiInternalStatus.SUCCESS) {
           //* return right
           return Right(response.toDomain());
         } else {
